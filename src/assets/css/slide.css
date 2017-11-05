@@ -1,0 +1,41 @@
+.ck-slide {
+    position: relative;
+    /*overflow: hidden;*/
+}
+
+.ck-slide .ck-slide-wrapper{
+    overflow: hidden;
+    height: 81px;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+.ck-slide .slidewrap {
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+}
+.ck-slide .dot-wrap {
+    border-radius: 2px;
+    padding: 0 4px;
+    width: auto !important;
+}
+.ck-slide .dot-wrap li {
+    width: auto !important;
+    margin: 4px 4px;
+}
+.ck-slide .dot-wrap li em {
+    width: 8px;
+    height: 8px;
+    background-color: #c7c6c4;
+    border-radius: 100%;
+    text-indent: -9999px;
+    cursor: pointer;
+    display: block;
+}
+.ck-slide .dot-wrap li.current em {
+    background-color: #ec6618;
+}
+.ck-slide .dot-wrap li em:hover {
+    background-color: #ec6618;
+}
